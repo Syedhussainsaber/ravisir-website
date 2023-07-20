@@ -7,7 +7,7 @@ function App() {
   return (
     <>
 <Navbar/>
-<h1>Ravi Sir Website</h1>
+<h1>Ravi bhai Website</h1>
  </>
   )
 }
