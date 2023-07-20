@@ -21,10 +21,10 @@ function Navbar() {
 </div>
       <ul className={active}>
       <li className="nav__item">
-          <a href={"/"}  className="nav__link">Home</a>
+          <a href={"/home"}  className="nav__link" spy={true} smooth={true} offset={50} duration={500} delay={1000}>Home</a>
         </li>
         <li className="nav__item">
-          <a href={"/"}  className="nav__link">About Me</a>
+          <a href={"about"}  className="nav__link" spy={true} smooth={true} offset={50} duration={500} delay={1000}>About Me</a>
         </li>
         <li className="nav__item">
           <a href={"/"}  className="nav__link">What I Do</a>

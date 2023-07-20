@@ -1,0 +1,66 @@
+.mission-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba($color: #000000, $alpha: 1);
+    color: white;
+    padding: 50px 20px 30px;
+    .mission-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 10px;
+margin-bottom: 50px;
+        h2{
+            color: orange;
+            font-size: 4em;
+text-align: center;
+        }
+        p{
+            margin-top: 15px;
+            text-align:center;
+            line-height: 1.5;
+            letter-spacing: 1.1px;
+            word-spacing: 5px;
+            font-size: 1.5em;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    }
+.mission-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    .card{
+        background-color: white;
+        display: flex;
+        width: 350px;
+        flex-direction: column;
+padding-bottom: 15px;
+
+img{
+    width: 100%;
+}
+    .card-details{
+      
+text-align: center;
+padding: 7px;
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 10px 0px;
+font-size: 1.7em;
+}
+p{
+font-size: 1.25em;
+font-family: 'Times New Roman', Times, serif;
+}
+color: #000000;
+    }
+    }
+}
+
+}

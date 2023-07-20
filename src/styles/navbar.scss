@@ -66,7 +66,7 @@ color: white;
   width: 2.5rem;
   height: 0.2rem;
   margin: 0.4rem;
-  background: black;
+  background: white;
   transition: 0.3s ease-in;
 }
 
@@ -74,6 +74,9 @@ color: white;
   .nav__toggler {
     display: block;
     cursor: pointer;
+  } 
+  .nav__toggler:hover{
+color: orange;
   }
 nav{
     position: fixed;
@@ -86,11 +89,11 @@ margin-bottom: 0px;
 }
 .nav__link {
 
-    color: wheat;
+    color: white;
 
   }
   .nav__link:hover{
-    color:gold;
+ color:orange;
   }
   .nav__menu {
     position: fixed;
