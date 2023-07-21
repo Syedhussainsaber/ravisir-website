@@ -12,6 +12,7 @@ import Information from './components/Information'
 import Mission from './components/Mission'
 import Footer from './components/Footer'
 import About from './components/About'
+import Section5 from "./components/Section5/Secrtion5"
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
 <About/>
 <Information/>
 <Mission/>
+<Section5/>
 <Footer/>
 
 <h1>Ravi bhai23 Website</h1>

@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -15,6 +16,7 @@
     "react-dom": "^18.2.0",
     "react-intersection-observer": "^9.5.2",
     "react-moving-text": "^0.0.7",
+    "react-player": "^2.12.0",
     "react-scroll": "^1.8.9",
     "react-type-animation": "^3.1.0",
     "sass": "^1.63.6"
