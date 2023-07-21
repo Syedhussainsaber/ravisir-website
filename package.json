@@ -14,6 +14,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mantine/carousel": "^6.0.17",
+    "embla-carousel-react": "^8.0.0-rc11",
     "framer-motion": "^10.13.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

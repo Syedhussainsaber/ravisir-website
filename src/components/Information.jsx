@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import { Carousel } from '@mantine/carousel';
 
 const Card = ({ imgSrc, title, link }) => {
   const [ref, inView] = useInView({
@@ -42,7 +43,8 @@ const Card = ({ imgSrc, title, link }) => {
 
 const Information = () => {
   return (
-    <div className="info-container">
+     <Carousel  mx="auto" withIndicators controlSize={26} height={1300}>
+      <Carousel.Slide><div className="info-container">
       <motion.div
         className="text-content"
         initial={{ opacity: 0, y: -30 }}
@@ -62,7 +64,7 @@ const Information = () => {
           transition={{ duration: 0.5, delay: 0.4 }}
         >
           <p>
-            We spread <br /> <span>knowledge</span> and <br /> <span>community</span>
+            
           </p>
         </motion.div>
       </motion.div>
@@ -91,6 +93,33 @@ const Information = () => {
           <p>There is a need for skill in every aspect of life and it can be developed...</p>
         </motion.div>
       </motion.div>
+      
+    </div></Carousel.Slide>
+     <Carousel.Slide><div className="info-container">
+      <motion.div
+        className="text-content"
+        initial={{ opacity: 0, y: -30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+      >
+        <motion.h2
+          initial={{ y: -30 }}
+          animate={{ y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+        >
+          
+        </motion.h2>
+        <motion.div
+          initial={{ y: -30 }}
+          animate={{ y: 0 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+        >
+          <p>
+            We spread <br /> <span>knowledge</span> and <br /> <span>community</span>
+          </p>
+        </motion.div>
+      </motion.div>
+      
       <motion.div
         className="cards-content"
         initial={{ opacity: 0 }}
@@ -101,7 +130,11 @@ const Information = () => {
         <div className="spacer" />
         <Card imgSrc="/org.png" title="Basics of getting a good college" link="#" />
       </motion.div>
-    </div>
+    </div></Carousel.Slide>
+   
+      {/* ...other slides */}
+    </Carousel>
+    
   );
 };
 
