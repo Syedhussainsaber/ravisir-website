@@ -9,7 +9,7 @@ const HeroLine = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
-        height: "800px", // Increase the height of the container
+        height: "1000px", // Increase the height of the container
         display: "flex",
         alignItems: "center",
         justifyContent: "center",

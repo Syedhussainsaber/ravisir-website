@@ -3,7 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -18,8 +21,10 @@
     "react-moving-text": "^0.0.7",
     "react-player": "^2.12.0",
     "react-scroll": "^1.8.9",
+    "react-slick": "^0.29.0",
     "react-type-animation": "^3.1.0",
-    "sass": "^1.63.6"
+    "sass": "^1.63.6",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.14",
